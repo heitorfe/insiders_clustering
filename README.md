@@ -10,66 +10,67 @@ The most valuable clients will get some benefits, for that, clustering is a good
 
 # 2. Challenge
 
-//
-
 ## 2.1. Problem
 
-//
+The business team wants to retain good customers giving benefits and gifts.
+
 ## 2.2. Causes
 
--
--
--
+-There are no method of customer segmentation running.
+-Marketing is not data driven.
+-The ecommerce don't know their best customers.
 
 ## 2.3. Solution
 
--
--
+-Using Machine Learning model to do clustering
+-Use clusters to do specific marketing to each group of customers
+
 # 3. Solution Development
 
 ## 3.1. Data Description 
 
-//
+Checking the shape of the datase, nulls and filling the nulls values.
 
 ## 3.2. Data Filtering
 
-//
+Investigating the data and cleaning based on the business assumptions. 
 
 ## 3.3. Feature Engineering
 
-Using normalization, rescaling and encoding to prepare the data to the Machine Learning model.
 
 ## 3.4. Data Preparation
 
-Using the Extra Trees Classifier to select the most important features to get the best Machine Learning performance.
+Using normalization, rescaling and encoding to prepare the data to the Machine Learning model.
 
 ## 3.5.  Exploratory Data Analysis 
-Training different Machine Learning models and comparing errors. The choosen method was the XGBoost Regressor because of the good speed and accuracy of the model. 
 
-![image](https://user-images.githubusercontent.com/77629603/159000872-cfde09d8-137a-4f50-a43d-8d6e32e0f25a.png)
+Investigating variancy, outliers and distribution of the features.
 
+## 3.6. Feature Selection
 
-## 3.6. Machine Learning Model
+Selecting the most important features to train the model.
 
-//
+## 3.7. Machine Learning Model
 
-## 3.7. Data Visualization on Metabase
+Training different Machine Learning models and comparing based on the Silhouette Scores. The choosen method was the K-Means because of the good speed and accuracy of the model. 
 
+## 3.8. Data Visualization on Metabase
 
+Loading the data into a Sqlite file and making visualization in a Dashboar in Metabase.
+
+[imagem]
 
 # 4. Results and Conclusion
 
-## 4.1. Main Concluions of Exploratory Data Analisys 
+## 4.1. Main Concluions of Data Visualization
 
 The main conclusios found in the EDA was:
 
-### C1. Age
+### C1. 
 
+### C2. 
 
-### C2. Annual premium.
-
-
-### C3. Policy sales channel
+### C3. 
 
 
 

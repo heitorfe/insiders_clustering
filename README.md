@@ -65,14 +65,14 @@ Loading the data into a Sqlite file and making visualization in a Dashboard in M
 
 # 4.1 Clusters Id and Names
 
-Cluster 7 : Insiders
-Cluster 2 : More frequency
-Cluster 0 : Lazy
-Cluster 5 : Hibernating (High recency)
-Cluster 4 : More products
-Cluster 6 : Forgotten
-Cluster 3 : Lost
-Cluster 1 : One-time customer
+* Cluster 7 : Insiders
+* Cluster 2 : More frequency
+* Cluster 0 : Lazy
+* Cluster 5 : Hibernating (High recency)
+* Cluster 4 : More products
+* Cluster 6 : Forgotten
+* Cluster 3 : Lost
+* Cluster 1 : One-time customer
 
 ## 4.2. Main Concluions of Data Visualization
 
@@ -86,15 +86,13 @@ There are 12 customers in Insiders group. They have great number of products, gr
 
 ### C2. Products
 
-![image](https://user-images.githubusercontent.com/77629603/161519891-7adcfd40-209b-406e-8c79-5fd2a08c9ea7.png)
-
+![image](https://user-images.githubusercontent.com/77629603/161524157-cf59ed75-6d91-4afb-be38-744a42201349.png)
 Cluster 2 represents the biggest part of the population, for that reason it has the biggests result of quantity of products. But when we look into average of products, Insiders are champions.
 The Insiders correspond to 6% of total products bought.
 
 ### C3. Gross Revenue
 
-![image](https://user-images.githubusercontent.com/77629603/161520580-0c035d9b-dc30-4943-8ad7-165d0e53141c.png)
-
+![image](https://user-images.githubusercontent.com/77629603/161524123-c6048e3e-bde6-4098-a42b-ff1ba1b0a646.png)
 Cluster 2 represents the biggest part of the population, for that reason it has the biggests result of absolute gross revenue. But when we look into gross revenue average, Insiders are champions.
 The Insiders correspond to 14% of total GMV.
 

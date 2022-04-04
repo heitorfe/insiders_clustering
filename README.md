@@ -102,14 +102,20 @@ The Insiders correspond to 14% of total GMV.
 
 Cluster 5 is champion of total returns, they are probably problematic customers. It called attention to analyse it separately. The Insiders have a big average of returns, but in absolute number is not so relevant. 
 
-## 4.2.Conclusion
+## 4.2. Model Performances
+
+Nº of clusters: 8
+
+Model Used: Gaussian Mixture Model
+
+Silhouette Score: 0,53
 
 Insiders are few but great customers. They have a good participation of the company revenue. Now, marketing can make custom actions to each cluster and work on their retention.
 
 # 5. Next Steps
 
-*Collecting feedback of the users and improve the usability if necessary
-*Improve the performance in the next CRISP cycle
+* Collecting feedback of the users and improve the usability if necessary
+* Improve the performance in the next CRISP cycle
 
 # 6. References
 

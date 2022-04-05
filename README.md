@@ -16,14 +16,14 @@ The business team wants to retain good customers giving gifts and benefits.
 
 ## 2.2. Causes
 
--There are no method of customer segmentation running.
--Marketing is not data driven.
--The ecommerce don't know their best customers.
+* There are no method of customer segmentation running.
+* Marketing is not data driven.
+* The ecommerce don't know their best customers.
 
 ## 2.3. Solution
 
--Using Machine Learning model to do clustering
--Use clusters to do specific marketing to each group of customers
+* Using Machine Learning model to do clustering
+* Use clusters to do specific marketing to each group of customers
 
 # 3. Solution Development
 

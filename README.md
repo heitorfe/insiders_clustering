@@ -2,17 +2,13 @@
 ![image](https://user-images.githubusercontent.com/77629603/161514587-9609878a-ebbd-4609-8123-071fb170e0ef.png)
 
 # 1. Context
-This project is based in a Kaggle Challenge wich simulates a business problem. An Ecommerce called All in One wants to release the "Insiders Program". This program consists in segment customers based on their features. The main features we are looking into are:
-* Gross Revenue (Unit price * Quantity)
-* Recency (days since the last purchase)
-* Frequency (times the customer purchase in a period)
-The most valuable clients will get some benefits, for that, clustering is a good call.
+This project is based in a Kaggle Challenge wich simulates a business problem. An Ecommerce called All in One Place sell second-line products from various brands at a lower price. After a year of operation, the marketing team realized that some customers buy more frequently and have a high averege ticket. Based in this perception, marketing team wants to  to release the "Insiders Program". The program consists in segment customers based on their similarities (looking into recency, frequency and gross revenue).
 
 # 2. Challenge
 
 ## 2.1. Problem
 
-The business team wants to retain good customers giving gifts and benefits.
+Marketing team wants to run a clustering program, but they know nothing about data science.
 
 ## 2.2. Causes
 
@@ -22,14 +18,14 @@ The business team wants to retain good customers giving gifts and benefits.
 
 ## 2.3. Solution
 
-* Using Machine Learning model to do clustering
-* Use clusters to do specific marketing to each group of customers
+* Use a Machine Learning model to do clustering.
+* Data visualization using Metabase 
 
 # 3. Solution Development
 
 ## 3.1. Data Description 
 
-Checking the shape of the datase, nulls and filling the nulls values.
+Checking the shape of the dataset, nulls and filling the null values.
 
 ## 3.2. Data Filtering
 

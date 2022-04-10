@@ -12,14 +12,23 @@ Marketing team wants to run a clustering program, but they know nothing about da
 
 ## 2.2. Causes
 
-* There are no method of customer segmentation running.
-* Marketing is not data driven.
+* There are no method of customer segmentation running;
+* Marketing is not data driven;
 * The ecommerce don't know their best customers.
+
+## 2.3. Business Assumptions
+
+* Invoice dates are between 2016-11-29 and 2017-12-07;
+* Negative values are considered returns;
+* Returns are not very expensive for the business;
+* A bad user was removed, considered an outlier.
 
 ## 2.3. Solution
 
-* Use a Machine Learning model to do clustering.
-* Data visualization using Metabase 
+* Use a Machine Learning model to do clustering;
+* Data visualization using Metabase.
+
+Demonstrations below.
 
 # 3. Solution Development
 
@@ -102,17 +111,26 @@ Cluster 5 is champion of total returns, they are probably problematic customers.
 
 Nº of clusters: 8
 
-Model Used: Gaussian Mixture Model
+Model Used: KMeans
+
+## 4.3. Silhouette plot 
+
+![image](https://user-images.githubusercontent.com/77629603/162596928-1b1e212d-07c1-498a-a6bf-877fd44e4e9b.png)
 
 Silhouette Score: 0,53
+
+## 4.4. Final Conclusion
 
 Insiders are few but great customers. They have a good participation of the company revenue. Now, marketing can make custom actions to each cluster and work on their retention.
 
 # 5. Next Steps
 
+* Deployment in production
 * Collecting feedback of the users and improve the usability if necessary
 * Improve the performance in the next CRISP cycle
 
 # 6. References
 
-The data is avaliable in this repository.
+* The data is avaliable in this repository.
+* [Comunidade DS](https://comunidadedatascience.com/blog)
+

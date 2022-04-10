@@ -2,34 +2,39 @@
 ![image](https://user-images.githubusercontent.com/77629603/161514587-9609878a-ebbd-4609-8123-071fb170e0ef.png)
 
 # 1. Context
-This project is based in a Kaggle Challenge wich simulates a business problem. An Ecommerce called All in One wants to release the "Insiders Program". This program consists in segment customers based on their features. The main features we are looking into are:
-* Gross Revenue (Unit price * Quantity)
-* Recency (days since the last purchase)
-* Frequency (times the customer purchase in a period)
-The most valuable clients will get some benefits, for that, clustering is a good call.
+This project is based in a Kaggle Challenge wich simulates a business problem. An Ecommerce called All in One Place sell second-line products from various brands at a lower price. After a year of operation, the marketing team realized that some customers buy more frequently and have a high averege ticket. Based in this perception, marketing team wants to  to release the "Insiders Program". The program consists in segment customers based on their similarities (looking into recency, frequency and gross revenue).
 
 # 2. Challenge
 
 ## 2.1. Problem
 
-The business team wants to retain good customers giving gifts and benefits.
+Marketing team wants to run a clustering program, but they know nothing about data science.
 
 ## 2.2. Causes
 
--There are no method of customer segmentation running.
--Marketing is not data driven.
--The ecommerce don't know their best customers.
+* There are no method of customer segmentation running;
+* Marketing is not data driven;
+* The ecommerce don't know their best customers.
+
+## 2.3. Business Assumptions
+
+* Invoice dates are between 2016-11-29 and 2017-12-07;
+* Negative values are considered returns;
+* Returns are not very expensive for the business;
+* A bad user was removed, considered an outlier.
 
 ## 2.3. Solution
 
--Using Machine Learning model to do clustering
--Use clusters to do specific marketing to each group of customers
+* Use a Machine Learning model to do clustering;
+* Data visualization using Metabase.
+
+Demonstrations below.
 
 # 3. Solution Development
 
 ## 3.1. Data Description 
 
-Checking the shape of the datase, nulls and filling the nulls values.
+Checking the shape of the dataset, nulls and filling the null values.
 
 ## 3.2. Data Filtering
 
@@ -106,17 +111,26 @@ Cluster 5 is champion of total returns, they are probably problematic customers.
 
 Nº of clusters: 8
 
-Model Used: Gaussian Mixture Model
+Model Used: KMeans
+
+## 4.3. Silhouette plot 
+
+![image](https://user-images.githubusercontent.com/77629603/162596928-1b1e212d-07c1-498a-a6bf-877fd44e4e9b.png)
 
 Silhouette Score: 0,53
+
+## 4.4. Final Conclusion
 
 Insiders are few but great customers. They have a good participation of the company revenue. Now, marketing can make custom actions to each cluster and work on their retention.
 
 # 5. Next Steps
 
+* Deployment in production
 * Collecting feedback of the users and improve the usability if necessary
 * Improve the performance in the next CRISP cycle
 
 # 6. References
 
-The data is avaliable in this repository.
+* The data is avaliable in this repository.
+* [Comunidade DS](https://comunidadedatascience.com/blog)
+
